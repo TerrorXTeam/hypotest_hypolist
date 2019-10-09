@@ -1,15 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import React, { Component } from 'react';
-class App extends Component  {
-  render () {
-  return (
-    <div className="App">
-  Add your components here
-    </div>
-  );
-}
+
+import Qcard from '../src/components/QCards/QCard/QCard'
+
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Qcard />
+      </div>
+    );
+  }
 }
 
 export default App;
