@@ -1,14 +1,13 @@
-import './App.css';
-import React, { Component } from 'react';
+import "./App.css";
+import React, { Component } from "react";
 
-import Qcard from '../src/components/QCards/QCard/QCard'
-
+import Qcards from "../src/components/QCards/QCards";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Qcard />
+        <Qcards />
       </div>
     );
   }
