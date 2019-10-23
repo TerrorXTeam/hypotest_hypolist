@@ -1,14 +1,15 @@
 import React from 'react';
 import Aux from '../../hoc/Aux';
-import ValueClass from './Layout.css'
+import 'bulma/css/bulma.css';
 
 
-const layout = (props) => (
+const Layout = (props) => (
     <Aux>
-    <div>Toolbar,Options</div>
-    <main className={ValueClass.siteWrapper}>
-        {props.children}
-    </main>
+        <div className='container desktop'>
+            <div className='notification'>
+                {props.children}
+            </div>
+        </div>
     </Aux>
 );
-export default layout;
+export default Layout;
